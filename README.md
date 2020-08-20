@@ -2,7 +2,7 @@
 <b>Discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b> Cryptography & Network Security
-<b> Experiment|     <b> 1. 1.Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result.
+<b> Experiment|     <b> 1.Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result.
 
 <h5> About the Lab (Objective) : </h5>
 
@@ -48,5 +48,3 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 4 | Rishabh Shukla | Student |  IT |United College of Engineering and Research,Prayagraj |rishabhshukla321@gmail.com
 
 
-<br>
-for more details on Rounds visit : <b> [HERE](http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/List-of-Rounds/blob/master/README.md) </b>
