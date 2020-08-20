@@ -1,16 +1,12 @@
 ## Introduction (Round 0)
-
-Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
-<br>
-
-<b>Discipline | <b>Type Name of Discpline  to which lab belongs
+<b>Discipline | <b>Information Technology
 :--|:--|
-<b> Lab | <b> Type name of the lab
-<b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
+<b> Lab | <b> Cryptography & Network Security
+<b> Experiment|     <b> 1. 1.Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result.
 
 <h5> About the Lab (Objective) : </h5>
 
-Type here: berif description of the lab
+The objective of this lab is that student must able to know about XOR operation used in cryptography to secure message.
 
 <h5> About the Experiment : </h5>
 
@@ -18,38 +14,38 @@ Type here: berif description of this experiment
 
 <h5> Target Audience : </h5>
 
-Type here: the target audience
+B.TECH(CS/IT)
 
 <h5> Course Alignment : </h5>
 
-Type here: courses aligned
+This experiment is alligned with an introductory course on Cryptography
 
 <h5> Universities Mapped : </h5>
 
-Type here: universities mapped
+Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 
-<b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Name of Developer | <b> Paras Nath Singh
 :--|:--|
-<b> Institute | <b> My Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department in which you work
+<b> Institute | <b> United College of Engineering and Research
+<b> Email id|     <b> singhparascse99@gmail.com
+<b> Department | Computer Science & Engineering
 
 #### Mentor Details
 
-<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Mentored by | <b> Dr Sangeeta Arora
 :--|:--|
-<b> Institute | <b> Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department
+<b> Institute | <b> KIET Group of Institutions
+<b> Email id|     <b> sangeeta.arora@kiet.edu
+<b> Department | Computer Application
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Full name | Faculty | Dept Name | Name of the Insitute, City | abc@example.com
-2 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-3 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-4 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
+1 | Akash Goswami| Student | IT | United College of Engineering and Research,Prayagraj| ag28796@gmail.com
+2 | Harsh Dhussa | Student |  IT | United College of Engineering and Research,Prayagraj |harshdhussa@gmail.com
+3 | Kshitiz Saxena | Student |  IT | United College of Engineering and Research,Prayagraj |kshitizspn2000@gmail.com
+4 | Rishabh Shukla | Student |  IT |United College of Engineering and Research,Prayagraj |rishabhshukla321@gmail.com
 
 
 <br>
