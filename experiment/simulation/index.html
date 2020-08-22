@@ -1,1 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>XOR Cipher</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<center>
+		<!-- Header -->
+        <div class="header">
+            <h1 style="margin: 0; padding:5px;">Cryptography & Network Security LAB</h1>
+            <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                <span style="font-size:20px;">Program in C to XOR each character in the given string with 0.</span>
+            </marquee>
+        </div>
+    </center>
+	<br/>
+	
+	<center>
+	<div class="row">
+		<div id="main" class="column" style="text-align:left;">
+		<h2 style="background-color: #ccc; height:40px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;text-align:center;">Input</h2>
+			<div id="in_strlabel">
+				<label for="in_str" style="font-size:25px;font-weight:bold;font-family:arial;">Input String</label><br><br>
+				<input type="text" class="textbox" name="in_str" id="in_str" placeholder="Input string to be encrypted" maxlength="10">
+			</div>
+			
+			<div id="keylabel">
+			<label for="key" style="font-size:25px;font-weight:bold;font-family:arial;">Select Key</label><br><br>
+			<select class="textbox" id="key" name="key">
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+			</select><br><br>
+			</div>
+			<p id="hintenc" style="color:red;font-size:13px;font-style:italic;font-weight:bold;">Only alphabetical string is acceptable.
+			<br>String length can range from 1 to 10.
+			</p>
+			<div id="btn1" >
+				<input type="button" class="btn-next" value="Next" onclick="store()">
+				<input type="reset" class="btn-rst" value="Reset" onclick="reset()">
+			</div>
+			<div id="btn2">
+				<input type="button" class="btn-next" id="btnenc" value="Encrypt" onclick="keystore()">
+				<input type="reset" class="btn-rst" value="Reset" onclick="reset()">
+			</div>
+			
+			<div id="decrypt">
+			<hr>
+			<h1>Decrypt</h1>
+				<label for="in_str" style="font-size:25px;font-weight:bold;font-family:arial;">Input Encrypted String</label><br><br>
+				<input type="text" class="textbox" name="in_str2" id="in_str2" placeholder="Input string to be decrypted" maxlength="10"><br><br>
+				<label for="key" style="font-size:25px;font-weight:bold;font-family:arial;">Select Key</label><br><br>
+				<select class="textbox" id="key2" name="key2">
+					<option value="0">0</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+				</select>
+				<input type="button" class="btn-next" id="btndec" value="Decrypt" onclick="decrypt()">
+				<p id="hintdec" style="color:red;font-size:13px;font-style:italic;font-weight:bold;">Length of encrypted text and plain text must be same.
+			</p>
+			</div>
+			</div>
+			
+			
+			<!-- INPUT DISPLAY -->
+			<div id="in_dis" class="column col2" style="text-align:center;">
+			<h2 style="background-color: #ccc; height:40px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;text-align:center;">Process</h2>
+			<center>
+			<div style="float:right;font-size:19px;">
+			view&nbsp;<select class="viewas" onchange="view_change()">
+				<option>Logical</option>
+				<option>Code</option>
+			</select>
+			</div>
+			<br>
+			
+			<hr>
+			<div id="logical">
+			
+			<div  id="inchar">
+				<table style="text-align:center;">
+				<tr id="inchar1">
+				</tr>
+				</table>
+			</div>
+			
+			<!--XOR SYMBOL-->
+			<div id="cb">
+				<table style="text-align:center;">
+				<tr id="cbox">
+				</tr>
+				</table>
+			</div>
+			
+			
+			<!--KEY DISPLAY-->
+			<div id="keyb">
+				<table style="text-align:center;">
+				<tr id="keyb1">
+				</tr>
+				</table>
+			</div>
+			
+			
+			<!--EQUAL SYMBOL-->
+			<div id="eqlb">
+				<table style="text-align:center;">
+				<tr id="eqlt">
+				</tr>
+				</table>
+			</div>
+			
+			
+			
+			<!-- OUTPUT DISPLAY -->
+			<div id="outchar">
+				<table>
+				<tr id="outchar1">
+				</tr>
+				</table>
+			</div>
+			</div>
+			
+			<div id="code">
+				<table class="codetable">
+	
+	<tr id="loc01">
+		<td>#include&lt;stdio.h&gt;</td>
+	</tr>
+	
+	<tr id="loc02">
+		<td>#include&lt;string.h&gt;</td>
+	</tr>
+	
+	<tr id="loc03">
+		<td>char output_str[20];</td>
+	</tr>
+	
+	<tr id="loc04">
+		<td>char *enc_dec(char *text,char key);</td>
+	</tr>
+	
+	<tr id="loc05">
+		<td >void main(){</td>
+	</tr>
+	
+	<tr id="loc06">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;char input_str[20],*enc_str,*dec_str,enc_key;</td>
+	</tr>
 
+	
+	<tr id="loc07">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("\nEnter String\n");</td>
+	</tr>
+	
+	<tr id="loc08">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gets(input_str);</td>
+	</tr>
+
+	
+	<tr id="loc09">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("\nEnter Encryption Key\n");</td>
+	</tr>
+	
+	<tr id="loc10">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%c",&enc_key);</td>
+	</tr>
+	
+	
+	<tr id="loc11">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;getchar();</td>
+	</tr>
+	
+	<tr id="loc12">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;enc_str=enc_dec(input_str,enc_key);</td>
+	</tr>
+
+	
+	<tr id="loc13">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("\n%s\n",enc_str);</td>
+	</tr>
+	
+	<tr id="loc14">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("\nEnter String\n");</td>
+	</tr>
+	
+	<tr id="loc15">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gets(input_str);</td>
+	</tr>
+	
+	<tr id="loc16">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("\nEnter Decryption Key\n");</td>
+	</tr>
+
+	
+	<tr id="loc17">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scanf("%c",&enc_key);</td>
+	</tr>
+	
+	<tr id="loc18">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dec_str=enc_dec(input_str,enc_key);</td>
+	</tr>
+
+	
+	<tr id="loc19">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("\n%s\n",dec_str);</td>
+	</tr>
+	
+	<tr id="loc20">
+		<td>}</td>
+	</tr>
+	
+	<tr id="loc21">
+		<td>char *enc_dec(char *text,char key){</td>
+	</tr>
+	
+	<tr id="loc22">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i;</td>
+	</tr>
+	
+	<tr id="loc23">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (i = 0; i < strlen(text); i++)</td>
+	</tr>
+	
+	<tr id="loc24">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;output_str[i]=text[i]^key;</td>
+	</tr>
+	
+	<tr id="loc25">
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return (char *)output_str;</td>
+	</tr>
+	
+	<tr id="loc26">
+		<td>}</td>
+	</tr>
+	
+	</table>
+			</div>
+			
+			</center>
+			</div>
+		
+			<div class="column col3">
+			<h2 style="background-color: #ccc; height:40px ; margin-top: 0px; padding-top: 7px;border: 3px solid #000000 ;text-align:center;">Output</h2>
+				<h1 id="outenc">Encryption</h1>
+				<span id="out1" style="font-weight:bold;font-size:25px;"></span><br>
+				<span id="out2" style="font-weight:bold;font-size:25px;"></span><br>
+				<span id="out3" style="font-weight:bold;font-size:25px;"></span><br>
+				
+				<h1 id="outdec">Decryption</h1>
+				<span id="out4" style="font-weight:bold;font-size:25px;"></span><br>
+				<span id="out5" style="font-weight:bold;font-size:25px;"></span><br>
+				<span id="out6" style="font-weight:bold;font-size:25px;"></span><br>
+			</div>
+			
+		</div>
+	</center>
+	
+	
+</body>
+<script src="js/script_default.js"></script>
+<script src="js/script_function.js"></script>
+</html>
