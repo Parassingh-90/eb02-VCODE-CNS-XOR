@@ -33,12 +33,12 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    
+###### Name of Instructional Strategy  :   Expository 
 ###### Assessment Method: As per handout
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
- Brief description as per handout
+ student have to follow the instruction to perform operation.Provide the input string of length 10 and than select the key value to XOR it.To verify the ciphertext again perform decryption operation.
 
 <br/>
 <div align="right">
@@ -55,18 +55,10 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | Type the question that will assess what student has learnt
-2.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
+1.| User will be able to recall the concept of boolean algebra| Type the task that <br> student will perform | Type the question that will assess what student has learnt
+2.| User will be able to understand the concept of XOR operation | Type the task that <br> student will perform | Type the question that will assess what student has learnt
+3.|  User will be able to apply the concept of XOR to secure message | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
 
-
-You can add more question. All questions may not be as MCQ
-Please add the correct answer as well.
-or type the correct answer below the question.
-
- <br>
-
- <u> You can add additional TASKS & Assessment Questions <u>
-<br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
