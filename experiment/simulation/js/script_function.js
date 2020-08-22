@@ -43,7 +43,7 @@
 			
 		}
 		else{
-			alert("Only alphabetical string is acceptable\nString length can range from 1 to 10.");
+			//alert("Only alphabetical string is acceptable\nString length can range from 1 to 10.");
 		}
 	}
 	function reset(){
@@ -218,7 +218,7 @@
 			
 		}
 		else{
-			alert("Invalid length!");
+			//alert("Invalid length!");
 		}
 	}
 	function view_change(){
