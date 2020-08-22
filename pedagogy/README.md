@@ -56,8 +56,8 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| User will be able to recall the concept of boolean algebra| identify boolean value | What is a Boolean expression?
-2.| User will be able to understand the concept of XOR operation |  | Why is XOR important in cryptography?
-3.|  User will be able to apply the concept of XOR to secure message |perform encryption and decryption on given string| 1 Find ciphertext on given string welcome to xor with 8 <br> A. welcoXP <br> B. WELcoXP <br> C. XPcoelw <br> <b> D. welcPoX </b> <br> (A)
+2.| User will be able to understand the concept of XOR operation | identify XOR operator | Why is XOR important in cryptography?
+3.|  User will be able to apply the concept of XOR to secure message |perform encryption and decryption on given string| <div align="justify">1 Find ciphertext on given string welcome to xor with 8 </div><br> A. welcoXP <br> B. WELcoXP <br> C. XPcoelw <br> <b> D. welcPoX </b> <br> (A)
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -72,7 +72,7 @@ Sr. No |Learning Objective	| Task to be performed by <br> the student  in the si
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-2.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+1.| student will enter the string | break the given string into blocks of characters | user will be able to know how string is converted into character
+2.| student have to select key value by default it is 0 | given string and key value xor and generate ciphertext|user will be able to know how plainttext converted into ciphertext to secure message.
 3.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
 4.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
