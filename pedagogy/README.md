@@ -53,11 +53,11 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 Read the theory and comprehend the concepts related to the experiment. [LO1, LO2, LO3]
 <br>
 
-Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
+Sr. No |Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| User will be able to recall the concept of boolean algebra| Type the task that <br> student will perform | Type the question that will assess what student has learnt
-2.| User will be able to understand the concept of XOR operation | Type the task that <br> student will perform | Type the question that will assess what student has learnt
-3.|  User will be able to apply the concept of XOR to secure message | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
+1.| User will be able to recall the concept of boolean algebra| identify boolean value | What is a Boolean expression?
+2.| User will be able to understand the concept of XOR operation |  | Why is XOR important in cryptography?
+3.|  User will be able to apply the concept of XOR to secure message |perform encryption and decryption on given string| 1 Find ciphertext on given string welcome to xor with 8 <br> A. welcoXP <br> B. WELcoXP <br> C. XPcoelw <br> <b> D. welcPoX </b> <br> (A)
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
