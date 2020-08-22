@@ -20,11 +20,9 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>Next line from here <br> Next line here. | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-2.| User will be able to: <br>Next line from here <br> Next line here. | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-3.| User will be able to: <br>Next line from here <br> Next line here. | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-4.| User will be able to: <br>Next line from here <br> Next line here. | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Type as per the document](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-
+1.| User will be able to: <br>recall the concept of boolean algebra|Recall|Define
+2.| User will be able to: <br>understand the concept of XOR operation| Understand | Describe
+3.| User will be able to: <br>apply the concept of XOR to secure message|Apply|solve
 
 <br/>
 <div align="right">
@@ -35,7 +33,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u> As per Handout
+###### Name of Instructional Strategy  :    
 ###### Assessment Method: As per handout
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
