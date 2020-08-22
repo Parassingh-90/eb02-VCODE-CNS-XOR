@@ -1,17 +1,9 @@
 ## Pedagogy (Round 1)
-<p align="center">
-
-Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
-<br>
-<br>
-<b> Experiment ABCDEF Lab  <a name="top"></a> <br>
-</p>
-
-<b>Discipline | <b>Type Name of Discipline  to which lab belongs
+<b>Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result. <a name="top"></a> <br>
+<b>Discipline | <b>Information Technology
 :--|:--|
-<b> Lab | <b> Type name of the lab
-<b> Experiment|     <b> 1. Name of the experiment
-
+<b> Lab | <b>Cryptography & Network Security
+<b> Experiment|     <b> 1. Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result.
 
 <h4> [1. Focus Area](#LO)
 <h4> [2. Learning Objectives ](#LO)
@@ -21,7 +13,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Name of the Focus area as per handout
+#### 1. Focus Area : Reinforce theoretical concepts
 
 #### 2. Learning Objectives and Cognitive Level
 
