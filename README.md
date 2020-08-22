@@ -9,8 +9,8 @@
 The objective of this lab is that student must able to know about XOR operation used in cryptography to secure message.
 
 <h5> About the Experiment : </h5>
-
-XOR Encryption is an encryption method used to encrypt data and is hard to crack by brute-force method, i.e generating random encryption keys to match with the correct one.In this experiment user XOR given string each character with key 0 as default and display result as ciphertext.
+<div align="justify">
+XOR Encryption is an encryption method used to encrypt data and is hard to crack by brute-force method, i.e generating random encryption keys to match with the correct one.In this experiment user XOR given string each character with key 0 as default and display result as ciphertext.</div>
 
 <h5> Target Audience : </h5>
 
@@ -35,7 +35,7 @@ Dr. A.P.J. Abdul Kalam Technical University(AKTU)
 <b>Mentored by | <b> Dr Sangeeta Arora
 :--|:--|
 <b> Institute | <b> KIET Group of Institutions
-<b> Email id|     <b> sangeeta.arora@kiet.edu
+<b> Email id|   <b> sangeeta.arora@kiet.edu
 <b> Department | Computer Applications
 
 #### Contributors List
