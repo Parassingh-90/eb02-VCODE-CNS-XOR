@@ -57,7 +57,7 @@ Sr. No |Learning Objective	| Task to be performed by <br> the student  in the si
 :--|:--|:--|:-:
 1.| User will be able to recall the concept of boolean algebra| identify boolean value | What is a Boolean expression?
 2.| User will be able to understand the concept of XOR operation | identify XOR operator | Why is XOR important in cryptography?
-3.|  User will be able to apply the concept of XOR to secure message |perform encryption and decryption on given string| <div align="justify">1 Find ciphertext on given string welcome to xor with 8 </div><br> A. welcoXP <br> B. WELcoXP <br> C. XPcoelw <br> <b> D. welcPoX </b> <br> (A)
+3.|  User will be able to apply the concept of XOR to secure message |perform encryption and decryption on given string|<div align="justify">1.Find ciphertext on given string welcome to xor with 8 </div><br> A. welcoXP <br> B. WELcoXP <br> C. XPcoelw <br> <b> D. welcPoX </b> <br> (A)
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
@@ -74,4 +74,4 @@ Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
 1.| student will enter the string |<div align="justify">break the given string into blocks of characters</div>|<div align="justify">user will be able to know how string is converted into character.</div>
 2.| student have to select key value by default it is 0 |<div align="justify">given string and key value xor and generate ciphertext</div>|<div align="justify">user will be able to know how plaint text converted into cipher text to secure message.</div>
-3.| student also perform decryption by taking ciphertext | input ciphertext and key value in encrypted box| user will be able to verify the encryption and decryption process.
+3.| student also perform decryption by taking ciphertext |<div align="justify">input ciphertext and key value in encrypted box</div>|<div align="justify"user will be able to verify the encryption and decryption process.</div>
