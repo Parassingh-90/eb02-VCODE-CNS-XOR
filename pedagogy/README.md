@@ -72,6 +72,6 @@ Sr. No |Learning Objective	| Task to be performed by <br> the student  in the si
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| student will enter the string |<div align="justify">break the given string into blocks of characters</div>|<div align="justify">user will be able to know how string is converted into character.</div>
-2.| student have to select key value by default it is 0 |<div align="justify">given string and key value xor and generate ciphertext</div>|<div align="justify">user will be able to know how plaint text converted into cipher text to secure message.</div>
-3.| student also perform decryption by taking ciphertext |<div align="justify">input ciphertext and key value in encrypted box</div>|<div align="justify">user will be able to verify the encryption and decryption process.</div>
+1.|student will enter the string |<div align="justify">break the given string into blocks of characters</div>|<div align="justify">user will be able to know how string is converted into character.</div>
+2.|student have to select key value by default it is 0 |<div align="justify">given string and key value xor and generate ciphertext</div>|<div align="justify">user will be able to know how plaint text converted into cipher text to secure message.</div>
+3.|student also perform decryption by taking ciphertext |<div align="justify">input ciphertext and key value in encrypted box</div>|<div align="justify">user will be able to verify the encryption and decryption process.</div>
