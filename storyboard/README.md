@@ -14,10 +14,10 @@ Describe the Story intorduction here (guide : The next step is to write a story.
 Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
 
 #### 2.2 Set User Objectives & Goals:
-1. The prime objective of this experiment is to demonstrate the process of Encryption and Decryption using XOR Cipher.
-2. The simulator visually shows every step so that user may better understand the logic behind the process.
-3. To display the different scenarios on chosing different Encryption-Decryption Key.
-4 .To answer the assesment based on the observations.
+1. The prime objective of this experiment is to demonstrate the process of Encryption and Decryption using XOR Cipher.<br>
+2. The simulator visually shows every step so that user may better understand the logic behind the process.<br>
+3. To display the different scenarios on chosing different Encryption-Decryption Key.<br>
+4 .To answer the assesment based on the observations.<br>
 
 #### 2.3 Set the Pathway Activities:
 
@@ -38,10 +38,10 @@ Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/
 
 ##### 2.6 Conclusion:
 
-1. Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.
-2. This would prompt the users as to how many answers were correctly answered.
-3. The given plain text is to be encrypted using XOR Cipher and then answered accordingly.
-4. The given Cipher text is to be decrypted using XOR Cipher and then answered accordingly.
+1. Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.<br>
+2. This would prompt the users as to how many answers were correctly answered.<br>
+3. The given plain text is to be encrypted using XOR Cipher and then answered accordingly.<br>
+4. The given Cipher text is to be decrypted using XOR Cipher and then answered accordingly.<br>
 
 ##### 2.7 Equations/formulas: NA
 Cipher Text = Plain Text &oplus; Key<br>
