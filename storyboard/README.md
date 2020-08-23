@@ -1,6 +1,6 @@
 ## Storyboard (Round 2)
 
-Experiment 1: Write a C program that xor each character in a string with 0-9 and displays the result.
+Experiment 1: Write a C program that xor each character in a string with character key 0-9 and displays the result.
 
 ### 1. Story Outline:
 
