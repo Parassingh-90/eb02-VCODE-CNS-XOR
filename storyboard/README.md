@@ -46,7 +46,7 @@ A. Both Numbers are same<br>
 C. Both Numbers are 0<br>
 D. Both Numbers are 1<br>
 
-Q. In C progamming language exor is represented by:<br>
+Q. In C progamming language XOR is represented by:<br>
 A. !<br>
 <b>B. ^</b><br>
 C. ||<br>
