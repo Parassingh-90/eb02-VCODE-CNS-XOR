@@ -3,16 +3,20 @@
 Experiment 1: Write a C program that xor each character in a string with character key 0-9 and displays the result.
 
 ### 1. Story Outline:
-
-In cryptography, the simple XOR cipher is a type of additive cipher. The concept of implementation is to first define XOR – encryption key and then to perform XOR operation of the characters in the String with this key which we want to encrypt. In order to get the original String, we need to decrypt each characters. To decrypt the encrypted characters we have to perform XOR operation again with the defined key.
+<div align="justify">
+In cryptography, the simple XOR cipher is a type of additive cipher. The concept of implementation is to first define XOR – encryption key and then to perform XOR operation of the characters in the String with this key which we want to encrypt. In order to get the original String, we need to decrypt each characters. To decrypt the encrypted characters we have to perform XOR operation again with the defined key.</div>
 
 ### 2. Story:
+<div align="justify">
 XOR cipher employs the XOR logical operation in order to encrypt data. The XOR operator is extremely common as a component in more complex ciphers. XOR operation uses the same key for both encryption and decryption. First, either a random key is generated or choosen. Then, XOR operation is performed using the key so that an encrypted data is created.
 In order to decrypt, the same key should be used and XOR operation should be run again. That is why it is known as a symmetric encryption.<br>
-Its primary merit is that it is simple to implement, and that the XOR operation is computationally inexpensive. That is why XOR is used inside most encryption algorithms or used with various other encryption methods. A simple repeating XOR (i.e. using the same key for xor operation on the whole data) cipher is therefore sometimes used for hiding information in cases where no particular security is required. The XOR cipher is often used in computer malware to make reverse engineering more difficult. When XOR cipher has a random key that is as long as the message itself, it is impossible to crack it. In other words, it can be said it offers a very high level of security.
+Its primary merit is that it is simple to implement, and that the XOR operation is computationally inexpensive. That is why XOR is used inside most encryption algorithms or used with various other encryption methods. A simple repeating XOR (i.e. using the same key for xor operation on the whole data) cipher is therefore sometimes used for hiding information in cases where no particular security is required. The XOR cipher is often used in computer malware to make reverse engineering more difficult. When XOR cipher has a random key that is as long as the message itself, it is impossible to crack it. In other words, it can be said it offers a very high level of security.</div>
 
 #### 2.1 Set the Visual Stage Description:
-We divided our whole simulator into 3 parts. The left most part comprises all the inputs like plain-text and key while encrypting and cipher-text and key while decrypting. This part lets the user interact with the simulator. The right most part contains C program code which runs according to the different states of simulator. This part lets the user understand the implementation of XOR-Cipher in C Programming Language. The middle part is subdivided into two parts. The Top part deals with logical process of xor-encryption and xor-decryption. This part lets the user know how the encryption and decryption is actually being performed. The bottom part contains all the output generated while encryption and decryption.
+<div align="justify">
+We divided our whole simulator into 3 parts. The left most part comprises all the inputs like plain-text and key while encrypting and cipher-text and key while decrypting. This part lets the user interact with the simulator.<br> 
+The right most part contains C program code which runs according to the different states of simulator. This part lets the user understand the implementation of XOR-Cipher in C Programming Language. The middle part is subdivided into two parts.<br>
+The Top part deals with logical process of xor-encryption and xor-decryption. This part lets the user know how the encryption and decryption is actually being performed. The bottom part contains all the output generated while encryption and decryption.</div><br>
 
 #### 2.2 Set User Objectives & Goals:
 1. The prime objective of this experiment is to demonstrate the process of Encryption and Decryption using XOR Cipher.<br>
