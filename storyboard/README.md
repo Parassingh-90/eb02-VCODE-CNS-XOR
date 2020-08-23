@@ -21,7 +21,11 @@ Describe here : (guide When a user lands up into a simulator, the visual stage i
 
 #### 2.3 Set the Pathway Activities:
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+1. User has to provide an alphabetical string which user wants to encrypt.<br>
+2. Click on Next and choose an encryption key from the list.<br>
+3. Click on Encrypt and the Cipher text will be generated.<br>
+4. User has to provide the generated Cipher text and choose a decryption key from the list.<br>
+5. Click on Decrypt and the decrypted text will be generated and matched with the original text provided by the user at start.<br>
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
