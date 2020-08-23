@@ -55,9 +55,9 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.|User will be able to recall the concept of boolean algebra|identify boolean value|<div align="justify">A ________ value is represented by a Boolean expression.<br></div> A.Positive<br>B.Recursive <br>C.Negative<br>D.Boolean</b><br>()
+1.|User will be able to recall the concept of boolean algebra|identify boolean value|<div align="justify">A ________ value is represented by a Boolean expression.<br></div> A.Positive<br>B.Recursive <br>C.Negative<br>D.Boolean</b><br>(D)</b>
 2.|User will be able to understand the concept of XOR operation|identify XOR operator|<div align="justify">Why is XOR important in cryptography?</div>
-3.|User will be able to apply the concept of XOR to secure message|perform encryption and decryption on given string|<div align="justify">1.Find ciphertext on given string welcome to xor with 8<br></div>A.welcoXP<br>B.WELcoXP <br>C.XPcoelw<br><b>D.welcPoX</b><br>(A)</b>
+3.|User will be able to apply the concept of XOR to secure message|perform encryption and decryption on given string|<div align="justify">1.Find ciphertext on given string welcome to xor with 8(ASCII CODE)<br></div>A.welcoXP<br>B.WELcoXP <br>C.XPcoelw<br><b>D.welcPoX</b><br>(A)</b>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
