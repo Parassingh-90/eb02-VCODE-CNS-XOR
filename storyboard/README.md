@@ -17,7 +17,7 @@ Describe here : (guide When a user lands up into a simulator, the visual stage i
 1. The prime objective of this experiment is to demonstrate the process of Encryption and Decryption using XOR Cipher.<br>
 2. The simulator visually shows every step so that user may better understand the logic behind the process.<br>
 3. To display the different scenarios on chosing different Encryption-Decryption Key.<br>
-4 .To answer the assesment based on the observations.<br>
+4. To answer the assesment based on the observations.<br>
 
 #### 2.3 Set the Pathway Activities:
 
