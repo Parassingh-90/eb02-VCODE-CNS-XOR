@@ -5,7 +5,7 @@ Delete this line before submission : The core principle of Round 2 is to make th
 Experiment 1: Write a C program that xor each character in a string with '0'-'9' and displays the result.
 ### 1. Story Outline:
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+In cryptography, the simple XOR cipher is a type of additive cipher. The concept of implementation is to first define XOR – encryption key and then to perform XOR operation of the characters in the String with this key which we want to encrypt. In order to get the original String, we need to decrypt each characters. To decrypt the encrypted characters we have to perform XOR operation again with the defined key.
 
 ### 2. Story:
 
