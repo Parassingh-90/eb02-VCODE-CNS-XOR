@@ -29,7 +29,34 @@ We divided our whole simulator into 3 parts. The left most part comprises all th
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
+Q. What will be the output if we xor any character with integer number 0?<br>
+<b>A. the character itself</b><br>
+B. 0<br>
+C. 1<br>
+D. None of the above<br>
+
+Q. Decryption process and Encryption process in XOR-Cipher is different.<br>
+A. True<br>
+<b>B. False</b><br>
+
+Q. XOR returns 1 if:<br>
+A. Both Numbers are same<br>
+<b>B. Both Numbers are different</b><br>
+C. Both Numbers are 0<br>
+D. Both Numbers are 1<br>
+
+Q. In C progamming language exor is represented by:<br>
+A. !<br>
+<b>B. ^</b><br>
+C. ||<br>
+D. &&<br>
+E. None of the above<br>
+
+Q. Mark the most suitable option. In this experiment XOR-Cipher is performed on:<br>
+A. Characters<br>
+B. Integers<br>
+<b>C. ASCII values of character</b><br>
+D. None of the above<br>
 
 ##### 2.5 Allow pitfalls:
 
