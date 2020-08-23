@@ -43,7 +43,7 @@ Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/
 3. The given plain text is to be encrypted using XOR Cipher and then answered accordingly.<br>
 4. The given Cipher text is to be decrypted using XOR Cipher and then answered accordingly.<br>
 
-##### 2.7 Equations/formulas: NA
+##### 2.7 Equations/formulas:
 Cipher Text = Plain Text &oplus; Key<br>
 Plain Text = Cipher Text &oplus; Key<br>
 
