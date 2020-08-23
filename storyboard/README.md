@@ -33,7 +33,11 @@ Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/
 2. Student must be attentive while decrypting the cipher text, as a small change in either cipher text or decryption key will cause an incorrect decrypted text.<br>
 
 ##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+
+1. Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.
+2. This would prompt the users as to how many answers were correctly answered.
+3. The given plain text is to be encrypted using XOR Cipher and then answered accordingly.
+4. The given Cipher text is to be decrypted using XOR Cipher and then answered accordingly.
 
 ##### 2.7 Equations/formulas: NA
 Cipher Text = Plain Text &oplus; Key<br>
