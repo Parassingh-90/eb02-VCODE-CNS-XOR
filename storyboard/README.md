@@ -11,7 +11,7 @@ In cryptography, the simple XOR cipher is a type of additive cipher. The concept
 Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
 
 #### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+We divided our whole simulator into 3 parts. The left most part comprises all the inputs like plain-text and key while encrypting and cipher-text and key while decrypting. This part lets the user interact with the simulator. The right most part contains C program code which runs according to the different states of simulator. This part lets the user understand the implementation of XOR-Cipher in C Programming Language. The middle part is subdivided into two parts. The Top part deals with logical process of xor-encryption and xor-decryption. This part lets the user know how the encryption and decryption is actually being performed. The bottom part contains all the output generated while encryption and decryption.
 
 #### 2.2 Set User Objectives & Goals:
 1. The prime objective of this experiment is to demonstrate the process of Encryption and Decryption using XOR Cipher.<br>
