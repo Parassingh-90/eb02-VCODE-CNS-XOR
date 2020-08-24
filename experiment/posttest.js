@@ -90,27 +90,55 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "What will be the output if we xor any character with integer number 0?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "the character itself",                  ///// Write the option 1 inside double quotes
+        b: "0",                  ///// Write the option 2 inside double quotes
+        c: "1",                  ///// Write the option 3 inside double quotes
+        d: "None of the above"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Decryption process and Encryption process in XOR-Cipher is different.",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "True",                  ///// Write the option 1 inside double quotes
+        b: "False",                  ///// Write the option 2 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
+    {
+      question: "XOR returns 1 if:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Both Numbers are same",                  ///// Write the option 1 inside double quotes
+        b: "Both Numbers are different",                  ///// Write the option 2 inside double quotes
+        c: "Both Numbers are 0",                  ///// Write the option 3 inside double quotes
+        d: " Both Numbers are 1"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
+    {
+      question: "In C progamming language XOR is represented by:",  ///// Write the question inside double quotes
+      answers: {
+        a: "!",                  ///// Write the option 1 inside double quotes
+        b: "^",                  ///// Write the option 2 inside double quotes
+        c: "||",                  ///// Write the option 3 inside double quotes
+        d: "&&"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
+    {
+      question: "Mark the most suitable option. In this experiment XOR-Cipher is performed on:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Characters",                  ///// Write the option 1 inside double quotes
+        b: "Integers",                  ///// Write the option 2 inside double quotes
+        c: "ASCII values of character",                  ///// Write the option 3 inside double quotes
+        d: "None of the above"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
