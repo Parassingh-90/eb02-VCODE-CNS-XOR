@@ -9,6 +9,6 @@ Its primary merit is that it is simple to implement, and that the XOR operation 
 3)Click on Encrypt and the Cipher text will be generated.<br>
 4)User has to provide the generated Cipher text and choose a decryption key from the list.<br>
 5)Click on Decrypt and the decrypted text will be generated and matched with the original text provided by the user at start.<br>
-### Pre Test
-### Post Test
+### Pre Test</br>
+### Post Test</br>
 ### References-<b>https://www.geeksforgeeks.org/xor-cipher/
