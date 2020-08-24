@@ -21,7 +21,6 @@ a. !<br>
 <b>b. ^<br></b>
 c. ||<br>
 d.  &&<br>
-e. None of the above<br>
 
 Q 5.  Mark the most suitable option. In this experiment XOR-Cipher is performed on:<br>
 a. Characters<br>
