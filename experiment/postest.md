@@ -1,29 +1,26 @@
 ## Post test
 <br>
-Q 1. What will be the output if we xor any character with integer number 0?<br>
-<b>a. The character itself<br></b>
-b. 0<br>
-c. 1<br>
-d. None of the above<br><br>
+Q 1. In XOR-Cipher key is optional.<br>
 
-Q 2. Decryption process and Encryption process in XOR-Cipher is different.<br>
 a. True<br>
 <b>b. False<br></b>
 
-Q 3. XOR returns 1 if:<br>
-a. Both Numbers are same.<br>
-<b>b. Both Numbers are different<br></b>
-c. Both Numbers are 0<br>
-d. Both Numbers are 1<br>
+Q 2. XOR-Cipher is:<br>
+<b>a. Encryption Algorithm<br></b>
+b. Hashing Algorithm<br>
 
-Q 4. In C progamming language XOR is represented by:<br>
-a. !<br>
-<b>b. ^<br></b>
-c. ||<br>
-d.  &&<br>
+Q 3. XOR-Cipher is:<br>
+<b>a. Symmetric-key encryption<br></b>
+b. Asymmetric-key encryption<br>
 
-Q 5.  Mark the most suitable option. In this experiment XOR-Cipher is performed on:<br>
-a. Characters<br>
-b. Integers<br>
-<b>c. ASCII values of character<br></b>
-d. None of the above<br></b>
+Q 4. Select correct statement. In XOR-Cipher:<br>
+a. Plain-Text is exor with key to get Cipher-Text<br>
+b. Cipher-Text is exor with key to get Plain-Text<br>
+<b>c. Both<br></b>
+d. None of the above<br>
+
+Q 5. In XOR-Cipher,length of cipher text:<br>
+a. smaller than plain text<br>
+b. greater than plain text<br>
+<b>c. same as plain text<br></b>
+d. depends on the key<br>
