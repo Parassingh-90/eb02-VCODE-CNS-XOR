@@ -2,44 +2,44 @@
 
    "details": [
        {
-			"Experiment": "",     
-			"Lab": "",               
-			"Discipline": "",				 
-			"Technology": ""         
+			"Experiment": ".Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result.",     
+			"Lab": "Cryptography & Network Security",               
+			"Discipline": "Information Technology",				 
+			"Technology": "B.Tech"         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "",         
-      "Institute": "",         
-      "InstituteAcronym": ""   
+      "Developer": "Paras Nath Singh",         
+      "Institute": "United College of Engineering and Research",         
+      "InstituteAcronym": "UCER"   
        }
    ],
 
    "contributer": [
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Akash Goswami	",             
+      "Institute": "United College of Engineering and Research",               
+			"InstituteAcronym": "UCER"         
        },
 
        {       
-			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Harsh Dhussa",              
+      "Institute": "United College of Engineering and Research",               
+			"InstituteAcronym": "UCER"         
        },
 
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Kshitiz Saxena",             
+      "Institute": "United College of Engineering and Research",               
+			"InstituteAcronym": "UCER"         
        },
 
        {       
-			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Rishabh Shukla",              
+      "Institute": "United College of Engineering and Research",               
+			"InstituteAcronym": "UCER"         
        }
    ]
 
