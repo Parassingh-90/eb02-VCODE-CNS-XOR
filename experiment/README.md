@@ -1,5 +1,5 @@
 This folder has <br>
-### Aim-<br>
+### Aim<br>
 User must be able to understand the concept of XOR in cryptography.<br>
 ### Theory<br>
 <div align="justify">
