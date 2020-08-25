@@ -90,52 +90,48 @@
 
   const myQuestions = [
     {
-      question: "What will be the output if we xor any character with integer number 0?",  ///// Write the question inside double quotes
+      question: "In XOR-Cipher key is optional.",  ///// Write the question inside double quotes
       answers: {
-        a: "the character itself",                  ///// Write the option 1 inside double quotes
-        b: "0",                  ///// Write the option 2 inside double quotes
-        c: "1",                  ///// Write the option 3 inside double quotes
-        d: "None of the above"                   ///// Write the option 4 inside double quotes
+        a: "True",                  ///// Write the option 1 inside double quotes
+        b: "False"
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "Decryption process and Encryption process in XOR-Cipher is different.",  ///// Write the question inside double quotes
+      question: "XOR-Cipher is:",  ///// Write the question inside double quotes
       answers: {
-        a: "True",                  ///// Write the option 1 inside double quotes
-        b: "False",                  ///// Write the option 2 inside double quotes
+        a: "Encryption Algorithm",                  ///// Write the option 1 inside double quotes
+        b: "Hashing Algorithm"                  ///// Write the option 2 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
     {
-      question: "XOR returns 1 if:",  ///// Write the question inside double quotes
+      question: "XOR-Cipher is:",  ///// Write the question inside double quotes
       answers: {
-        a: "Both Numbers are same",                  ///// Write the option 1 inside double quotes
-        b: "Both Numbers are different",                  ///// Write the option 2 inside double quotes
-        c: "Both Numbers are 0",                  ///// Write the option 3 inside double quotes
-        d: " Both Numbers are 1"                   ///// Write the option 4 inside double quotes
+        a: "Symmetric-key encryption",                  ///// Write the option 1 inside double quotes
+        b: "Asymmetric-key encryption"
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
     {
-      question: "In C progamming language XOR is represented by:",  ///// Write the question inside double quotes
+      question: "Select correct statement. In XOR-Cipher:",  ///// Write the question inside double quotes
       answers: {
-        a: "!",                  ///// Write the option 1 inside double quotes
-        b: "^",                  ///// Write the option 2 inside double quotes
-        c: "||",                  ///// Write the option 3 inside double quotes
-        d: "&&"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },
-    {
-      question: "Mark the most suitable option. In this experiment XOR-Cipher is performed on:",  ///// Write the question inside double quotes
-      answers: {
-        a: "Characters",                  ///// Write the option 1 inside double quotes
-        b: "Integers",                  ///// Write the option 2 inside double quotes
-        c: "ASCII values of character",                  ///// Write the option 3 inside double quotes
+        a: "Plain-Text is exor with key to get Cipher-Text",                  ///// Write the option 1 inside double quotes
+        b: "Cipher-Text is exor with key to get Plain-Text",                  ///// Write the option 2 inside double quotes
+        c: "Both",                  ///// Write the option 3 inside double quotes
         d: "None of the above"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
+    },
+    {
+      question: "In XOR-Cipher,length of cipher text:",  ///// Write the question inside double quotes
+      answers: {
+        a: "smaller than plain text",                  ///// Write the option 1 inside double quotes
+        b: "greater than plain text",                  ///// Write the option 2 inside double quotes
+        c: "same as plain text",                  ///// Write the option 3 inside double quotes
+        d: "depends on the key"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
