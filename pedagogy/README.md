@@ -35,7 +35,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 <a name="IS"></a>
 #### 3. Instructional Strategy
 ###### Name of Instructional Strategy  :   Expository <br>
-<div align="justify">Instructional Strategy is Expository because student in this lab follow the predefined step or procedure to perform the experiment.By applying the predefined step of XOR operation to solve any problem and generate the same output which is predefined in XOR operation.</div>
+<div align="justify">Instructional Strategy is Expository because student in this lab follow the predefined step or procedure to perform the experiment.By applying the predefined step of XOR operation to solve any problem and generate the same output which is predefined in XOR operation.</div><br>
 ###### Assessment Method: Formative
 
 <u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
