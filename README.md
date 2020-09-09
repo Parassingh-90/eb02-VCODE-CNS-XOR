@@ -6,7 +6,7 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-The objective of this lab is that student must able to know about XOR operation used in cryptography to secure message.
+This Lab is all about the Cryptography and Network Security Lab
 
 <h5> About the Experiment : </h5>
 <div align="justify">
