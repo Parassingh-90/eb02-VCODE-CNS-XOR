@@ -21,7 +21,7 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>recall the concept of boolean algebra|Remember|Recall
+1.| User will be able to: <br>recall the concept of boolean algebra|Recall|Recall
 2.| User will be able to: <br>explain the concept of XOR operation| Understand | Explain
 3.| User will be able to: <br>apply the concept of XOR to secure message|Apply|Apply
 
@@ -59,7 +59,7 @@ Sr. No |Learning Objective	| Task to be performed by <br> the student  in the si
 :--|:--|:--|:-:
 1.|User will be able to recall the concept of boolean algebra|identify boolean value|<div align="justify">1.A ________ value is represented by a Boolean expression.<br></div> A.Positive<br>B.Recursive <br>C.Negative<br><b>D.Boolean</b><br>
 2.|User will be able to understand the concept of XOR operation|identify XOR operator|<div align="justify">1.What is the output of XOR operation between 10011100 and10110101 in term of hexadecimal?<br></div><b>A.29</b><br>B.34<br>C.26<br>D.27<br>
-3.|User will be able to apply the concept of XOR to secure message|perform encryption and decryption on given string|<div align="justify">1.Find ciphertext on given string welcome to xor with 8(ASCII CODE)<br></div><b>A.welcoXP</b><br>B.WELcoXP <br>C.XPcoelw<br><b>D.welcPoX<br>
+3.|User will be able to apply the concept of XOR to secure message|perform encryption and decryption on given string|<div align="justify">1.Find ciphertext on given string welcome to xor with 8(ASCII CODE)<br></div><b>A.welcoXP</b><br>B.WELcoXP <br>C.XPcoelw<br>D.welcPoX<br>
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
