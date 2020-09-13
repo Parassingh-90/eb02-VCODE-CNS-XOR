@@ -10,7 +10,7 @@ This Lab is all about the Cryptography and Network Security Lab
 
 <h5> About the Experiment : </h5>
 <div align="justify">
-XOR Encryption is an encryption method used to encrypt data and is hard to crack by brute-force method, i.e generating random encryption keys to match with the correct one.In this experiment user XOR given string each character with key 0 as default and display result as ciphertext.</div>
+In this experiment XOR operation is used to perform encryption and decryption process.In this experiment user perform XOR on given string each character with key 0 as default and display result as ciphertext.Different keys are also available to perform encryption and decryption process on given string.Same key is used for both encryption and decryption process to generate ciphertext and plaintext using ASCII code of a character.</div>
 
 <h5> Target Audience : </h5>
 
