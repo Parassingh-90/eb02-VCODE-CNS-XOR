@@ -68,4 +68,5 @@ b. greater than plain text<br>
 d. depends on the key<br>
 
 ### References<br>
-Cryptography and Newtork Security by Atul Khate
+1.Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
+2.Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
