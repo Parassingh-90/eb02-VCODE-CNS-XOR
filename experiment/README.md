@@ -68,5 +68,4 @@ b. greater than plain text<br>
 d. depends on the key<br>
 
 ### References<br>
-https://www.geeksforgeeks.org/xor-cipher/<br>
 Cryptography and Newtork Security by Atul Khate
