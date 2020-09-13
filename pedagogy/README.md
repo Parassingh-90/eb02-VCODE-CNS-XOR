@@ -1,5 +1,5 @@
 ## Pedagogy (Round 1)
-<b>Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result. <a name="top"></a> <br>
+<b>Write a C program that contains a string (char pointer) with a value \Hello World’. The program should XOR each character in this string with 0 and displays the result. <a name="top"></a> </b><br>
 <b>Discipline | <b>Information Technology
 :--|:--|
 <b> Lab | <b>Cryptography & Network Security
