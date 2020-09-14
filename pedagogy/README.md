@@ -21,7 +21,7 @@
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>recall the concept of boolean algebra|Recall|Recall
+1.| User will be able to: <br>recall the concept of boolean algebra|Remember|Recall
 2.| User will be able to: <br>explain the concept of XOR operation| Understand | Explain
 3.| User will be able to: <br>apply the concept of XOR to secure message|Apply|Apply
 
