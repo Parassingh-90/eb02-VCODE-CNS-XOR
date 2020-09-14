@@ -4,7 +4,7 @@ Experiment 1: Write a C program that xor each character in a string with charact
 
 ### 1. Story Outline:
 <div align="justify">
-In cryptography, the simple XOR cipher is a type of additive cipher. The concept of implementation is to first define XOR – encryption key and then to perform XOR operation of the characters in the String with this key which we want to encrypt. In order to get the original String, we need to decrypt each characters. To decrypt the encrypted characters we have to perform XOR operation again with the defined key.</div>
+In cryptography, the simple XOR cipher is a type of additive cipher. In this first define the XOR key which is used for encryption process and than perform the encryption process on given plaintext in form of string to generate the ciphertext. In decrypt the ciphertext back into plaintext,decrypt each characters again. Use the predefined XOR key to decrypt the encrypted characters to get the plaintext message from ciphertext.</div>
 
 ### 2. Story:
 <div align="justify">
