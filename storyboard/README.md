@@ -80,7 +80,7 @@ Cipher Text = Plain Text &oplus; Key<br>
 Plain Text = Cipher Text &oplus; Key<br>
 
 
-### 3. Flowchart 4
+### 3. Flowchart
 <img src="flowchart/flowchart.png"/><br>
 
 ### 4. Mindmap:
