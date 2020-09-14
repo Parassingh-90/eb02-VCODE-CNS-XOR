@@ -72,8 +72,7 @@ D. None of the above<br>
 
 1. Assessment/evaluation of the pre-test and post-test should be given immediately to the user. The moment the student clicks on the answer of his choice, the CORRECT ANSWER should be displayed below the question. This would enable the student to understand whether he is right or wrong.<br>
 2. This would prompt the users as to how many answers were correctly answered.<br>
-3. The given plain text is to be encrypted using XOR Cipher and then answered accordingly.<br>
-4. The given Cipher text is to be decrypted using XOR Cipher and then answered accordingly.<br>
+3. The given plain text is to be encrypted using XOR Cipher then the generated Cipher text is to be decrypted using XOR Cipher and then answered accordingly.<br>
 
 ##### 2.7 Equations/formulas:
 Cipher Text = Plain Text &oplus; Key<br>
