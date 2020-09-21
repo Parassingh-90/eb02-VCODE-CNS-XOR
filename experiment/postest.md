@@ -20,7 +20,7 @@ b. Cipher-Text is exor with key to get Plain-Text<br>
 d. None of the above<br>
 
 Q 5. In XOR-Cipher,length of cipher text:<br>
-a. smaller than plain text<br>
-b. greater than plain text<br>
-<b>c. same as plain text<br></b>
-d. depends on the key<br>
+a. Smaller than Plain text<br>
+b. Greater than Plain text<br>
+<b>c. Same as Plain text<br></b>
+d. Depends on the key<br>
