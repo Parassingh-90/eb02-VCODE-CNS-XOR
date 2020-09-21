@@ -7,11 +7,11 @@ XOR cipher employs the XOR logical operation in order to encrypt data. The most 
 The advantage of XOR operator is that it is simple to implement, and that the XOR operation is computationally inexpensive. That is why XOR is used inside most encryption algorithms or used with various other encryption methods. A simple repeating XOR (means the same key is used for xor operation on the whole data) cipher is therefore sometimes used for hiding information in cases where no particular security is required. To make reverse engineering in case of computer malware more difficult XOR cipher is often used. In XOR cipher operation when random key size is as long as the message itself, it is impossible to crack it. In other words, it can be said it offers a very high level of security.<br></div>
 
 ### Procedure<br>
-1)User has to provide an alphabetical string which user wants to encrypt.<br>
-2)Click on Next and choose an encryption key from the list.<br>
-3)Click on Encrypt and the Cipher text will be generated.<br>
-4)User has to provide the generated Cipher text and choose a decryption key from the list.<br>
-5)Click on Decrypt and the decrypted text will be generated and matched with the original text provided by the user at start.<br>
+1. User has to provide an alphabetical string which user wants to encrypt.<br>
+2. Click on Next and choose an encryption key from the list.<br>
+3. Click on Encrypt and the Cipher text will be generated.<br>
+4. User has to provide the generated Cipher text and choose a decryption key from the list.<br>
+5. Click on Decrypt and the decrypted text will be generated and matched with the original text provided by the user at start.<br>
 
 ### Pre Test<br>
 Q 1. Cryptography is all about:<br>
@@ -39,8 +39,8 @@ c. Both<br>
 d. None of the above<br>
 
 Q 5. What is symmetric-key encryption:<br>
-<b>a. same key for encryption and decryption<br></b>
-b. different key for encryption and decryption<br>
+<b>a. Same key for encryption and decryption<br></b>
+b. Different key for encryption and decryption<br>
 
 ### Post Test<br>
 Q 1. In XOR-Cipher key is optional.<br>
@@ -68,5 +68,5 @@ b. Greater than Plain text<br>
 d. Depends on the key<br>
 
 ### References<br>
-1.Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
-2.Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
+1. Cryptography and Network Security, Atul Khate,2nd edition,TMH,2006<br>
+2. Cryptography and Network security,William Stallings,4th edition,Pearson Education,2010
