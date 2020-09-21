@@ -14,10 +14,10 @@ c. Extensible OR<br>
 d. None of the above<br>
 
 Q 3. XOR gives true on:<br>
-<b>a. odd true inputs<br></b>
-b. even true inputs<br>
-c. all true inputs<br>
-d. all false inputs<br>
+<b>a. Odd True Inputs<br></b>
+b. Even True Inputs<br>
+c. All True Inputs<br>
+d. All False Inputs<br>
 
 Q 4. Key is not required in:<br>
 a. Encryption Algorithm<br>
@@ -26,5 +26,5 @@ c. Both<br>
 d. None of the above<br>
 
 Q 5. What is symmetric-key encryption:<br>
-<b>a. same key for encryption and decryption<br></b>
-b. different key for encryption and decryption<br>
+<b>a. Same key for Encryption and Decryption<br></b>
+b. Different key for Encryption and Decryption<br>
