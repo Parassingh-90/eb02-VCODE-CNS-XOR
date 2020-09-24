@@ -38,7 +38,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 <div align="justify">Instructional Strategy is Expository because student in this lab follow the predefined step or procedure to perform the experiment.By applying the predefined step of XOR operation to solve any problem and generate the same output which is predefined in XOR operation.</div><br>
 
 ####  Assessment Method: Formative
-<u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
+<u> <b>Description: </b> </u>
 <br>
  student have to follow the instruction to perform operation.Provide the input string of length 10 and than select the key value to XOR it.To verify the ciphertext again perform decryption operation.
 
