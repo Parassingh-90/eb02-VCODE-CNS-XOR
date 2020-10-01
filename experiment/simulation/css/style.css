@@ -141,8 +141,7 @@
 		.enccol {
             float: left;
             width: 44%;
-            height: 110px;
-			overflow-x:auto;
+		overflow-x:auto;
             margin-left: 20px;
         }
         .enccol2{
